@@ -53,7 +53,6 @@ def renomear():
 def renomear_extensao():
     global diretorio
 
-    # dicionario das extensoes
     extensoes = {
     "1": ".jpg",
     "2": ".jpeg",
@@ -89,7 +88,6 @@ def renomear_extensao():
         print("13. ZIP")
         print("14. RAR")
         
-        # Seleciona a extensão desejada
         escolha = input("\nPara qual extensão deseja renomear?: ").strip()
         if escolha not in extensoes:
             print("Opção inválida! Escolha um número de 1 a 14.")
@@ -102,8 +100,7 @@ def renomear_extensao():
             if Path(filename).suffix.lower() == extensao_alvo:
                 encontrou_arquivo = True
                 break
-
-        # mudando o nome do arquivo na extensão desejada         
+   
         if not encontrou_arquivo:
             print(f"\nNão existe arquivos com a extensão {extensao_alvo} nesta pasta.")   
         else:
@@ -157,9 +154,6 @@ def mover_arquivos():
                 break
 
     
-
-
-
 diretorio = pegar_diretorio() 
 while programa:
     exibir_menu()  
