@@ -17,9 +17,7 @@ O script oferece um menu interativo com as seguintes opções:
 ---
 
 ## Como Executar o Projeto
-
-1. Certifique-se de ter o **Python** instalado em sua máquina.
-2. Baixe o arquivo do projeto e abra o terminal na pasta dele.
-3. Execute o comando:
+1. Baixe o arquivo do projeto e abra o terminal na pasta dele.
+2. Execute o comando:
    ```bash
    python automacao.py
