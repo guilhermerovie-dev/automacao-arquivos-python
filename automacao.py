@@ -24,7 +24,7 @@ def opcao():
 
 def pegar_diretorio():
     while True:
-        print("\n-------- AUTOMAÇÃO DE ARQUIVOS -------")
+        print("\n-------- AUTOMAÇÃO DE ARQUIVOS --------")
         caminho = input(r"Cole o seu diretório aqui: ").strip()
         if os.path.isdir(caminho):
             print(f"O diretório: '{caminho}' existe.")
