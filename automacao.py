@@ -7,7 +7,7 @@ diretorio = ""
 programa = True
 
 def exibir_menu():
-    print("\n-------- AUTOMAÇÃO DE ARQUIVOS -------")
+    print("\n-------- AUTOMAÇÃO DE ARQUIVOS --------")
     print("1. Para mudar o diretorio.")
     print("2. Para renomear arquivos.")
     print("3. Para renomear somente uma extensão.")
